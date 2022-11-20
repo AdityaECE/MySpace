@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header {
+    padding: 5px 40px;
+    background-color: #333;
+    width: 100%;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+img {
+    padding: 10px;
+    size-adjust: center;
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+section {
+    min-height: 100vh;
+}
+main {
+    background-color: rgba(71, 179, 206);
+   background-image: url("C:/Users/adity/Downloads/Papeles del Clipart de Monitos y Bananas_.jpg");    
+   text-align: center;
+} 
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9f9f9;
+    font-size: 40px;
+    text-align: center;
+}
+.blog-posts{
+    width: min(1200px,100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.post{
+    width: calc(33% - 10px);
+    overflow: hidden;
+}
+
+.post-img{
+    height: 33%;
+    width: 100%;
+    border-radius: 25px;
+    transition: 0.3s linear;
+    
+}
+
+.post-content{
+    background-color: #ffffffdc;
+    backdrop-filter: blur(5px);
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: 0.3s linear;
+    box-shadow: 0px 7px 25px rgba(130, 130, 130, 0.08);
+}
+
+.post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-size: 15px;
+    font-style: italic;
+    color: #0d0d0e;
+}
+
+.post:hover .post-img{
+    transform: translateY(20px);
+}
+
+.post:hover .post-content{
+    transform: translateY(-80px);
+}
+@media screen and (max-width: 1200px) {
+    .blog-posts{
+        justify-content: center;
+    }
+    .post{
+        width: min(600px, 100%);
+    }
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+} 

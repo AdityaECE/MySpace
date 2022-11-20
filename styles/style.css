@@ -1,0 +1,52 @@
+
+body{
+    width: 25%;
+    height: 25%;
+    padding: 15px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-image: url("C:/Users/adity/Downloads/Free Photo _ Top view of agendas and succlent plant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+input{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+form h1{
+    color: antiquewhite;
+}
+form{
+    border: none;
+    background-color:  rgba(255, 255, 255, 0.47);
+    border-radius: 10px;
+    padding: 50px;
+}
+button{
+    background-color: rgba(44, 238, 37, 0.372);
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+}
